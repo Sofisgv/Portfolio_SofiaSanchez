@@ -41,7 +41,11 @@ header {
 }
 
 #SeccionEducacion {
-    background-color: rgb(158, 151, 209);
+    background-color: rgb(152, 146, 201);
+}
+
+#SeccionProyectos {
+    background-color: rgb(152, 146, 201);
 }
 
 .Caja {
