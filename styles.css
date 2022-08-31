@@ -17,6 +17,16 @@ header {
     text-align: left;
 }
 
+#Img-perfil {
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-sizing: 1px 1px 1px darkslateblue;
+    top: 600px;
+}
+
 #Nombre {
     font-weight: bold;
+    margin-top: 10%;
 }
+
