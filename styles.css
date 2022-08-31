@@ -7,3 +7,16 @@ header {
     margin-top: 30px;
     margin-right: 20px;
 }
+
+.row {
+    padding: 15px;
+}
+
+#AcercaDe {
+    background-color: rgb(152, 146, 201);
+    text-align: left;
+}
+
+#Nombre {
+    font-weight: bold;
+}
