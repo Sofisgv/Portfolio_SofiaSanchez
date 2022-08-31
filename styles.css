@@ -43,3 +43,66 @@ header {
 #SeccionEducacion {
     background-color: rgb(158, 151, 209);
 }
+
+.Caja {
+    padding: 15px;
+    width: 40%;
+    min-width: 590px;
+    position: absolute;
+}
+
+.Contenedor {
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: indigo;
+    border-radius: 10px;
+}
+
+.Contenedor *{
+    color: whitesmoke;
+}
+
+.Habilidades:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.Detalles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Ramas {
+    position: relative;
+    border: 1px solid lightskyblue;
+    border-radius: 20px;
+}
+
+.Ramas div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+
+#Resolucion-Ramas {
+    animation: Resolucion-barra 3s forwards;
+}
+
+@keyframes Resolucion-barra {
+    100%{
+        width: 70%;
+    }
+}
+
+#Diseño-Ramas {
+    animation: Diseño-barra 3s forwards;
+}
+
+@keyframes Diseño-barra {
+    100%{
+        width: 10%;
+    }
+}
