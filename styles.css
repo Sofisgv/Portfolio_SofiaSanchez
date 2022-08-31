@@ -1,5 +1,5 @@
 header {
-    background-color: darkslateblue;
+    background-color: indigo;
 }
 
 #Contacto {
@@ -13,15 +13,16 @@ header {
 }
 
 #SeccionAcercaDe {
-    background-color: rgb(152, 146, 201);
+    background-color: darkslateblue;
     text-align: center;
+    color: whitesmoke;
 }
 
 #Img-perfil {
     position: absolute;
     width: 15%;
     border-radius: 100%;
-    box-sizing: 1px 1px 1px darkslateblue;
+    box-shadow: 1px 1px 1px darkslateblue;
     left: 9%;
     top: 540px;
 }
@@ -33,4 +34,8 @@ header {
 
 #AcercaDe {
     text-align: left;
+}
+
+#SeccionExperiencia {
+    background-color: rgb(152, 146, 201);
 }
