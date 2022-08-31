@@ -12,9 +12,9 @@ header {
     padding: 15px;
 }
 
-#AcercaDe {
+#SeccionAcercaDe {
     background-color: rgb(152, 146, 201);
-    text-align: left;
+    text-align: center;
 }
 
 #Img-perfil {
@@ -22,7 +22,8 @@ header {
     width: 15%;
     border-radius: 100%;
     box-sizing: 1px 1px 1px darkslateblue;
-    top: 600px;
+    left: 9%;
+    top: 540px;
 }
 
 #Nombre {
@@ -30,3 +31,6 @@ header {
     margin-top: 10%;
 }
 
+#AcercaDe {
+    text-align: left;
+}
